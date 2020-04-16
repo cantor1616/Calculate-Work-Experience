@@ -1,0 +1,7 @@
+
+^squid:CallToDeprecatedMethod\"/Remove this use of "getYear"; it is deprecated.(Üžæü8à‹‹ð—.
+¤squid:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œ¿½¸úÿÿÿÿ8¡¡ˆð—.
+dsquid:CallToDeprecatedMethod]"0Remove this use of "getMonth"; it is deprecated.(åíù£þÿÿÿÿ8à‹‹ð—.
+Rsquid:S1172S"/Remove this unused method parameter "jobDates".(œ¿½¸úÿÿÿÿ8¡¡ˆð—.
+_squid:CallToDeprecatedMethod\"0Remove this use of "getMonth"; it is deprecated.(Üžæü8à‹‹ð—.
+csquid:CallToDeprecatedMethod]"/Remove this use of "getYear"; it is deprecated.(åíù£þÿÿÿÿ8à‹‹ð—.
