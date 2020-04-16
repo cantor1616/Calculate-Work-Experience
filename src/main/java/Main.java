@@ -64,7 +64,7 @@ public class Main {
     private static Date getEndDate() {
         System.out.print("End date (mm/yy): ");
         String endDate = SCANNER.nextLine();
-        if(done(endDate)) {k
+        if(done(endDate)) {
             return null;
         }
         try {
