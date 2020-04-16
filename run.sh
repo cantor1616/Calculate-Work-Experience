@@ -1,0 +1,1 @@
+java -jar build/libs/cantor1616artifact-1.0-SNAPSHOT.jar
