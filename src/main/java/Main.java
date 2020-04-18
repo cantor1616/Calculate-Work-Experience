@@ -108,7 +108,10 @@ public class Main {
             if (jobDatesCopy.get(i).get(END_DATE).getTime() >= jobDatesCopy.get(i + 1).get(START_DATE).getTime()) {
                 Map<String, Date> combinedDateRange = new HashMap<>();
                 combinedDateRange.put(START_DATE, jobDatesCopy.get(i).get(START_DATE));
-                combinedDateRange.put(END_DATE, jobDatesCopy.get(i + 1).get(END_DATE));
+                Date laterEndDate = jobDatesCopy.get(i).get(END_DATE).getTime() > jobDatesCopy.get(i + 1).get(END_DATE).getTime()
+                	? jobDatesCopy.get(i).get(END_DATE)
+                	: jobDatesCopy.get(i + 1).get(END_DATE);
+                combinedDateRange.put(END_DATE, laterEndDate);
                 jobDates.add(combinedDateRange);
                 jobDates.remove(jobDatesCopy.get(i));
                 jobDates.remove(jobDatesCopy.get(i + 1));
